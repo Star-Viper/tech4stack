@@ -1,0 +1,208 @@
+.landing-page-child,
+.landing-page-item {
+  position: absolute;
+  border-radius: 50%;
+  width: 557.18px;
+  transform: rotate(25.71deg);
+  transform-origin: 0 0;
+}
+.landing-page-child {
+  top: -413px;
+  left: 1115.43px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #edfc43,
+    rgba(217, 217, 217, 0)
+  );
+  height: 554.16px;
+}
+.landing-page-item {
+  top: 299px;
+  left: 522.74px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #43fc6c,
+    rgba(217, 217, 217, 0)
+  );
+  height: 527.22px;
+}
+.landing-page-inner {
+  top: -159px;
+  left: 33.74px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #43fc55,
+    rgba(217, 217, 217, 0)
+  );
+  width: 557.18px;
+  height: 527.22px;
+}
+.ellipse-div,
+.landing-page-child1,
+.landing-page-inner {
+  position: absolute;
+  border-radius: 50%;
+  transform: rotate(25.71deg);
+  transform-origin: 0 0;
+}
+.ellipse-div {
+  top: 259px;
+  left: 1430px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #ff69f0,
+    rgba(217, 217, 217, 0)
+  );
+  width: 533.22px;
+  height: 522.38px;
+}
+.landing-page-child1 {
+  top: 249px;
+  left: -137.55px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #edfc43,
+    rgba(217, 217, 217, 0)
+  );
+  width: 1016.88px;
+  height: 962.19px;
+}
+.payonweb,
+.pow {
+  position: absolute;
+}
+.pow {
+  top: -6px;
+  left: 87px;
+  letter-spacing: -0.29px;
+}
+.payonweb {
+  height: 2.29%;
+  width: 5.35%;
+  top: 3.98%;
+  right: 91.15%;
+  bottom: 93.73%;
+  left: 3.51%;
+}
+.man-working-on-nft-blockchain {
+  position: absolute;
+  top: 192px;
+  left: 727px;
+  width: 667.14px;
+  height: 662px;
+}
+.home1-rect-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 60px 60px 300px 60px;
+  background: linear-gradient(136.17deg, #4d70ed, #c952e7);
+  filter: blur(0);
+  width: 1278px;
+  height: 600px;
+}
+.no-more-waiting,
+.revolutionize-transactions-wit,
+.swift-simple-secure {
+  position: absolute;
+  top: 352px;
+  left: 55px;
+  line-height: 100%;
+  display: inline-block;
+  width: 772px;
+  height: 95px;
+}
+.revolutionize-transactions-wit,
+.swift-simple-secure {
+  top: 179px;
+  left: 52px;
+  font-size: 58px;
+  width: 949px;
+  height: 113px;
+}
+.swift-simple-secure {
+  top: 78px;
+  left: 55px;
+  font-size: 37px;
+  font-weight: 500;
+  width: 334px;
+  height: 37px;
+}
+.button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 18.67px;
+  background-color: #92c2ff;
+  box-shadow: 4px 4px 0.6px rgba(0, 0, 0, 0.5),
+    4px 4px 11.4px rgba(255, 252, 252, 0.5) inset;
+  filter: blur(0.7px);
+  width: 236.75px;
+  height: 76.92px;
+  opacity: 0.75;
+}
+.experience-it {
+  position: absolute;
+  top: 24.65px;
+  left: 40.33px;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  width: 156.83px;
+  height: 27.63px;
+}
+.button,
+.home1-rect {
+  position: absolute;
+  top: 509px;
+  left: 55px;
+  width: 236.75px;
+  height: 76.92px;
+  font-size: 26.89px;
+  color: #fff;
+}
+.home1-rect {
+  top: 92px;
+  left: 117px;
+  width: 1278px;
+  height: 701px;
+  text-align: left;
+  font-size: 40px;
+  color: #f3fbff;
+  font-family: Roboto;
+}
+.man-working-on-nft-blockchain1 {
+  position: absolute;
+  top: 157px;
+  left: 980px;
+  width: 518px;
+  height: 484px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.landing-page-child2 {
+  position: absolute;
+  top: 607px;
+  left: 1229px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #edfc43,
+    rgba(217, 217, 217, 0)
+  );
+  width: 557.18px;
+  height: 554.16px;
+  transform: rotate(25.71deg);
+  transform-origin: 0 0;
+}
+.landing-page {
+  position: relative;
+  background-color: #e3f5ff;
+  width: 100%;
+  height: 829px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #1e0e62;
+  font-family: Poppins;
+}
