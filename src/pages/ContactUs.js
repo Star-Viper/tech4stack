@@ -1,52 +1,42 @@
-import { useEffect } from "react";
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
+import { FunctionComponent } from "react";
+import styles from "./ContactUs.module.css";
 
-function ContactUs() {
-  const action = useNavigationType();
-  const location = useLocation();
-  const pathname = location.pathname;
-
-  useEffect(() => {
-    if (action !== "POP") {
-      window.scrollTo(0, 0);
-    }
-  }, [action, pathname]);
-
-  useEffect(() => {
-    let title = "";
-    let metaDescription = "";
-
-    switch (pathname) {
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      // Add more cases as needed
-
-      default:
-        // Handle default case
-    }
-
-    if (title) {
-      document.title = title;
-    }
-
-    if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
-        'head > meta[name="description"]'
-      );
-      if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
-      }
-    }
-  }, [pathname]);
-
-  return <div>Content goes here</div>;
-}
+const ContactUs: FunctionComponent = () => {
+  return (
+    <div className={styles.contactus}>
+      <div className={styles.manWorkingOnNftBlockchain} />
+      <div className={styles.contactUs}>Contact us</div>
+      <div className={styles.top}>
+        <div className={styles.seekingPersonalizedSupportContainer}>
+          <span>Seeking personalized support?</span>
+          <span className={styles.requestAMail}>
+            {" "}
+            Request a mail from our team
+          </span>
+        </div>
+        <div className={styles.field}>
+          <div className={styles.yourName}>Your name</div>
+        </div>
+        <div className={styles.field1}>
+          <div className={styles.yourName}>email</div>
+        </div>
+        <div className={styles.autoLayoutHorizontal}>
+          <div className={styles.sendARequest}>Send a request</div>
+        </div>
+      </div>
+      <img
+        className={styles.manUsingEthereumBlockchain}
+        alt=""
+        src="/man-using-ethereum-blockchain-technology--1280x1190@2x.png"
+      />
+      <img className={styles.vectorIcon} alt="" src="/vector@2x.png" />
+      <img
+        className={styles.contactusChild}
+        alt=""
+        src="/group-1000001767@2x.png"
+      />
+    </div>
+  );
+};
 
 export default ContactUs;
